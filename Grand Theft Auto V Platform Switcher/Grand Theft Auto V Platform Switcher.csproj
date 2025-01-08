@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{998F2D3E-FE06-4687-94F0-8CA24F6EC63B}</ProjectGuid>
+    <ProjectGuid>{5C825674-6023-4EEB-8F9A-B1BF6B461EED}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Grand_Theft_Auto_V_Platform_Switcher</RootNamespace>
     <AssemblyName>Grand Theft Auto V Platform Switcher</AssemblyName>

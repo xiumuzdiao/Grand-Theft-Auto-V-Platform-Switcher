@@ -37,7 +37,7 @@ namespace Grand_Theft_Auto_V_Platform_Switcher
 		// Token: 0x06000005 RID: 5 RVA: 0x00002075 File Offset: 0x00000275
 		private void AboutWindow_Load(object sender, EventArgs e)
 		{
-			this.LblProductVersion.Text = "Version " + Assembly.GetExecutingAssembly().GetName().Version.ToString();
+			this.LblProductVersion.Text = "版本号 " + Assembly.GetExecutingAssembly().GetName().Version.ToString();
 		}
 
 		// Token: 0x06000006 RID: 6 RVA: 0x000020A0 File Offset: 0x000002A0

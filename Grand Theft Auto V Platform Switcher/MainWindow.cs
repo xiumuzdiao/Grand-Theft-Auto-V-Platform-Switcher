@@ -421,21 +421,21 @@ namespace Grand_Theft_Auto_V_Platform_Switcher
 		private string _steamApi64Back = Environment.CurrentDirectory + "\\steam_api64.dll.steam";
 
 		// Token: 0x04000014 RID: 20
-		private string _tmbLaunchError = "Current platform in config file is wrong.\nPlease, select needed platform by clicking one of the big buttons above.";
+		private string _tmbLaunchError = "配置文件中的当前平台错误。\n 请点击上面的一个大按钮选择所需的平台。";
 
 		// Token: 0x04000015 RID: 21
-		private string _tmbFixSteam = "Relaunch Rockstar Games Launcher\nThen install game to steamapps\\common folder";
+		private string _tmbFixSteam = "重新启动 Rockstar Games Launcher \n 然后将游戏安装到 steamapps\\common 文件夹";
 
 		// Token: 0x04000016 RID: 22
-		private string _tmbFixEpic = "Relaunch Rockstar Games Launcher\nThen install game to steamapps\\common folder if you're planning to switch to Steam\nOr to folder above current if you want to switch to RGL only";
+		private string _tmbFixEpic = "重新启动 Rockstar Games Launcher \n 然后，如果您打算切换到 Steam，请将游戏安装到 steamapps\\common 文件夹 \n 或者，如果您只想切换到 RGL，请安装到当前文件夹上方的文件夹";
 
 		// Token: 0x04000017 RID: 23
-		private string _tmbConfigCorrupted = "Unable to read the config. It's probably corrupted or inaccesible, or you have not installed Switcher properly.\nIf you have ran the Switcher directly from archive - unpack archive to game folder (place everything from it next to GTA5.exe), open Switcher from folder, click About - How to use";
+		private string _tmbConfigCorrupted = "无法读取配置。它可能已损坏或无法访问，或者您没有正确安装 Switcher。\n 如果您直接从存档运行 Switcher - 将存档解压到游戏文件夹（将所有内容放在 GTA5.exe 旁边），从文件夹中打开 Switcher，单击 关于 - 如何使用";
 
 		// Token: 0x04000018 RID: 24
-		private string _oops = "Oops, something went wrong! Or maybe not...";
+		private string _oops = "哎呀，出错了！或者可能不是...";
 
 		// Token: 0x04000019 RID: 25
-		private string _tmbIdkWhatAreYouTryingToDo = "I don't really know what do you want me to do.";
+		private string _tmbIdkWhatAreYouTryingToDo = "我真的不知道你想让我做什么。";
 	}
 }

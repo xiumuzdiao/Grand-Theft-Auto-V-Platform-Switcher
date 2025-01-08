@@ -32,7 +32,7 @@
 			this.btnOkay.Name = "btnOkay";
 			this.btnOkay.Size = new global::System.Drawing.Size(75, 23);
 			this.btnOkay.TabIndex = 0;
-			this.btnOkay.Text = "&OK";
+			this.btnOkay.Text = "确定";
 			this.btnOkay.UseVisualStyleBackColor = true;
 			this.btnOkay.Click += new global::System.EventHandler(this.BtnOkay_Click);
 			this.lblDescription.AutoSize = true;
@@ -41,13 +41,13 @@
 			this.lblDescription.Name = "lblDescription";
 			this.lblDescription.Size = new global::System.Drawing.Size(417, 60);
 			this.lblDescription.TabIndex = 1;
-			this.lblDescription.Text = "Utility for easy switching between Rockstar Games\r\nLauncher, Steam and Epic Games Launcher with just only\r\none installation";
+			this.lblDescription.Text = "只需安装即可轻松在 Rockstar Games Launcher、Steam \r\n 和 Epic Games Launcher 之间切换的实用程序。\r\n汉化：Xiumuzidiao";
 			this.lblMadeBy.AutoSize = true;
 			this.lblMadeBy.Location = new global::System.Drawing.Point(13, 227);
 			this.lblMadeBy.Name = "lblMadeBy";
 			this.lblMadeBy.Size = new global::System.Drawing.Size(116, 13);
 			this.lblMadeBy.TabIndex = 2;
-			this.lblMadeBy.Text = "Made by TechnoStone";
+			this.lblMadeBy.Text = "制作：TechnoStone";
 			this.lblProductName.AutoSize = true;
 			this.lblProductName.Font = new global::System.Drawing.Font("Microsoft Sans Serif", 18f, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point, 202);
 			this.lblProductName.Location = new global::System.Drawing.Point(0, 0);
@@ -61,7 +61,7 @@
 			this.LblClickQIWI.Size = new global::System.Drawing.Size(42, 13);
 			this.LblClickQIWI.TabIndex = 5;
 			this.LblClickQIWI.TabStop = true;
-			this.LblClickQIWI.Text = "Donate";
+			this.LblClickQIWI.Text = "捐赠";
 			this.LblClickQIWI.LinkClicked += new global::System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
 			this.LblProductVersion.AutoSize = true;
 			this.LblProductVersion.Location = new global::System.Drawing.Point(13, 249);
@@ -76,7 +76,7 @@
 			this.LinkLblTS.Size = new global::System.Drawing.Size(60, 13);
 			this.LinkLblTS.TabIndex = 9;
 			this.LinkLblTS.TabStop = true;
-			this.LinkLblTS.Text = "My website";
+			this.LinkLblTS.Text = "作者网站";
 			this.LinkLblTS.LinkClicked += new global::System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkLblTS_LinkClicked);
 			this.LinkLblTG.AutoSize = true;
 			this.LinkLblTG.Location = new global::System.Drawing.Point(201, 227);
@@ -114,7 +114,7 @@
 			base.Name = "AboutWindow";
 			base.ShowInTaskbar = false;
 			base.StartPosition = global::System.Windows.Forms.FormStartPosition.CenterParent;
-			this.Text = "About";
+			this.Text = "关于";
 			base.Load += new global::System.EventHandler(this.AboutWindow_Load);
 			((global::System.ComponentModel.ISupportInitialize)this.pictureBox1).EndInit();
 			base.ResumeLayout(false);
